@@ -1,37 +1,4 @@
-<!--
-Creator: <Name>
-Location: SF
--->
-
-![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
-
-# JavaScript Data Types
-
-### Why is this important?
-<!-- framing the "why" in big-picture/real world examples -->
-*This workshop is important because:*
-
-JavaScript is the most complete, capable language usable across browsers. It lets us change the content of a page programmatically (on the fly) instead of being stuck with just what's written in the HTML code.  It enables complex user interactions.
-
-The need to process information drives programming languages.  JavaScript's data types define how it can store and manipulate information. They're the building blocks of everything that can be done in JavaScript.
-
-For web developers, it's critically important to be able to work with JavaScript objects.  JavaScript's features are mostly built into objects like `Date`, `Math`, and `document`. We'll also see that JavaScript objects and arrays form the basis of JSON, a very popular format for transferring application data across the web.
-
-### What are the objectives?
-<!-- specific/measurable goal for students to achieve -->
-*After this workshop, developers will be able to:*
-
-- Identify JavaScript data types.
-- Declare variables in the Chrome developer tools.
-- Get and set the values of variables.
-- Use built-in methods to manipulate strings and arrays.
-
-### Where should we be now?
-<!-- call out the skills that are prerequisites -->
-*Before this workshop, developers should already be able to:*
-
-- Open the Chrome developer tools (for example, with Command Option J).
-
+# Javascript Data Types
 
 ## Primitives
 
@@ -62,67 +29,6 @@ One of JavaScript's quirks is having both `null` and `undefined`. As a rule of t
 
 <sup>+</sup>`NaN` is a special global value meaning "Not A Number". `NaN` is the returned value when numerical evaluations fail, e.g. `8/"hello"`.
 
-### Expressions and Operations
-
-An expression is code that evaluates to some value.
-
-Expressions can include data (like `4` or `true`) and operators (like `=`, `*`, `!`), object and array lookup, and function calls.
-
-Expressions let us process data in useful ways.
-
-```js
-1 + 1;
-//=> 2
-
-2 - 1;
-//=> 1
-```
-
-Another commonly used operation in coding is the modulo operator, `%`. It finds the remainder after diving left side by right side.
-
-```js
-18 % 100;
-//=> 18
-
-5 % 2;
-//=> 1
-```
-
-In JavaScript, you can also use a `+` operation on strings. This is called **string concatenation**.  In JavaScript, it changes non-strings that you add into strings.
-
-```js
-"Hello, " + "world!";
-//=> "Hello, world!"
-
-"WDI " + 33;
-//=> "WDI 33"
-```
-
-These are fairly standard features across high-level programming languages.
-
-### Variables
-
-Variables are labeled locations for storing data. You can create a variable with the reserved word `var`, with or without giving it an initial value:
-
-```js
-var numForks;
-var lunchTime = 1215;
-```
-
-Instead of writing `1215` over and over in code, a program can access the information by variable name:
-
-```js
-lunchTime
-//=> 1215
-```
-
-If the value needs to change, the variable can be updated using the assignment operator `=`.
-
-```js
-lunchTime = '12:15';
-```
-
-Note that you can also freely change the type of data a variable is storing.
 
 ### Objects
 
